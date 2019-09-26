@@ -1,17 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./pages/_app/App";
 import "./index.scss";
-
-import Navbar from "./components/Navbar";
-import Content from "./components/Content";
-
-const App = () => {
-  return (
-    <div id="app">
-      <Navbar />
-      <Content />
-    </div>
-  );
-};
 
 ReactDOM.render(<App />, document.querySelector("#root"));
