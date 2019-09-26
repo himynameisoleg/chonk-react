@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 
 export default class Content extends Component {
-    // constructor(props) {
-    //     super(props);
-    // 	// this.state = {}
-    // }
+  render() {
+    return (
+      <main id="content">
+        <section className="section has-text-centered">
+          <h1 className="title">Welcome to Chonk.io</h1>
+        </section>
 
-    render() {
-        return <main>MAIN</main>;
-    }
+				<section className="section">
+				
+				</section>
+      </main>
+    );
+  }
 }

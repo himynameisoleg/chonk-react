@@ -6,12 +6,12 @@ import Navbar from "./components/Navbar";
 import Content from "./components/Content";
 
 const App = () => {
-    return (
-        <div>
-            <Navbar />
-            <Content />
-        </div>
-    );
+  return (
+    <div id="app">
+      <Navbar />
+      <Content />
+    </div>
+  );
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));

@@ -1,1 +1,17 @@
 @import "node_modules/bulmaswatch/default/bulmaswatch";
+
+$m-blue: #0bd3d3;
+$m-green: #64e8ba;
+$m-purple: #ca5fa6;
+$m-pink: #f36886;
+$m-orange: #fa8282;
+$m-yellow: #ffaf65;
+$m-white: #ffffff;
+$m-black: #000000;
+
+.Logo-circle {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  background: linear-gradient(0.25turn, $m-pink, $m-orange);
+}
