@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chonk-react/static/css/main.894a8dcd.chunk.css",
-    "main.js": "/chonk-react/static/js/main.60eaf015.chunk.js",
-    "main.js.map": "/chonk-react/static/js/main.60eaf015.chunk.js.map",
-    "runtime~main.js": "/chonk-react/static/js/runtime~main.ecb9cd9e.js",
-    "runtime~main.js.map": "/chonk-react/static/js/runtime~main.ecb9cd9e.js.map",
-    "static/js/2.a4c8419d.chunk.js": "/chonk-react/static/js/2.a4c8419d.chunk.js",
-    "static/js/2.a4c8419d.chunk.js.map": "/chonk-react/static/js/2.a4c8419d.chunk.js.map",
-    "index.html": "/chonk-react/index.html",
-    "precache-manifest.311208bbe161517afcd07072e7388c40.js": "/chonk-react/precache-manifest.311208bbe161517afcd07072e7388c40.js",
-    "service-worker.js": "/chonk-react/service-worker.js",
-    "static/css/main.894a8dcd.chunk.css.map": "/chonk-react/static/css/main.894a8dcd.chunk.css.map",
-    "static/media/ramen.jpg": "/chonk-react/static/media/ramen.fdbf1c8b.jpg"
+    "main.css": "/static/css/main.894a8dcd.chunk.css",
+    "main.js": "/static/js/main.60eaf015.chunk.js",
+    "main.js.map": "/static/js/main.60eaf015.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.5db75cc7.js",
+    "runtime~main.js.map": "/static/js/runtime~main.5db75cc7.js.map",
+    "static/js/2.a4c8419d.chunk.js": "/static/js/2.a4c8419d.chunk.js",
+    "static/js/2.a4c8419d.chunk.js.map": "/static/js/2.a4c8419d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1d1ee34e68ee8277e7f1bf2b4b248cb6.js": "/precache-manifest.1d1ee34e68ee8277e7f1bf2b4b248cb6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.894a8dcd.chunk.css.map": "/static/css/main.894a8dcd.chunk.css.map",
+    "static/media/ramen.jpg": "/static/media/ramen.fdbf1c8b.jpg"
   }
 }
