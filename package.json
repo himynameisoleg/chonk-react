@@ -2,7 +2,7 @@
   "name": "test-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://himynameisoleg.github.io/chonk-react",
+  "homepage": "https://chonk.io",
   "dependencies": {
     "bulma": "^0.7.5",
     "bulmaswatch": "^0.7.5",
