@@ -20,7 +20,7 @@ export default class Card extends Component {
 
           <div className="content">
             <p>
-              Ramen is a Japanese adaptation of Chinese wheat noodles.\One
+              "Ramen is a Japanese adaptation of Chinese wheat noodles.One
               theory says that ramen was first introduced to Japan during the
               1660s by the Chinese neo-Confucian scholar Zhu Shunsui who served
               as an advisor to Tokugawa Mitsukuni after he became a refugee in
@@ -32,7 +32,11 @@ export default class Card extends Component {
               Yokohama Chinatown. According to the record of the Yokohama Ramen
               Museum, ramen originated in China and made its way over to Japan
               in 1859.Early versions were wheat noodles in broth topped with
-              Chinese-style roast pork.
+              Chinese-style roast pork."
+            </p>
+            <p>
+              test excerpt from:{" "}
+              <a href="https://en.wikipedia.org/wiki/Ramen">Wikipedia</a>
             </p>
           </div>
         </div>
