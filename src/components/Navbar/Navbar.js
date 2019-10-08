@@ -18,13 +18,14 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/#/">
             <Logo />
-            {/* <div className="text-bold">chonk.io</div> */}
           </a>
-
+          <a className="navbar-item" href="/#/">
+            <div className="has-text-weight-bold is-family-monospace">chonk.io</div>
+          </a>
           <a
             role="button"
             onClick={this.handleClick}

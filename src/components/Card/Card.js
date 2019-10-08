@@ -19,16 +19,14 @@ export default class Card extends Component {
   render() {
     const { markdown } = this.state; 
     return (
-      <div className="card">
-        <div className="card-content">
-          <div className="content">
-            <ReactMarkdown 
-              source={markdown} 
-              escapeHtml={false}
-            />
-          </div>
-        </div> 
+      
+      <div className="content">
+        <ReactMarkdown 
+          source={markdown} 
+          escapeHtml={false}
+        />
       </div>
+
 
       // <div className="card">
       //   <div className="card-image">
