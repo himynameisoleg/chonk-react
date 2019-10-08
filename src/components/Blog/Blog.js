@@ -6,7 +6,11 @@ export default class Blog extends Component {
   render() {
     return (
       <section className="section">
-        <Card />
+        <div className="columns is-centered">
+          <div className="column is-half">
+            <Card />
+          </div>
+        </div>
       </section>
     );
   }

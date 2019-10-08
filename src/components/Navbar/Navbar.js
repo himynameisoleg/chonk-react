@@ -20,7 +20,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="#">
+          <a className="navbar-item" href="/#/">
             <Logo />
             {/* <div className="text-bold">chonk.io</div> */}
           </a>
@@ -33,6 +33,7 @@ export default class Navbar extends Component {
             }`}
             aria-label="menu"
             aria-expanded="false"
+            href="/#/"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -44,10 +45,10 @@ export default class Navbar extends Component {
           className={`navbar-menu ${this.state.isToggleOn ? "is-active" : ""}`}
         >
           <div className="navbar-end">
-            <a className="navbar-item" href="#" onClick={this.handleClick}>
+            <a className="navbar-item" href="/#/" onClick={this.handleClick}>
               Home
             </a>
-            <a className="navbar-item" href="#" onClick={this.handleClick}>
+            <a className="navbar-item" href="/#/" onClick={this.handleClick}>
               Blog
             </a>
           </div>
