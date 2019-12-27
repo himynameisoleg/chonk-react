@@ -24,7 +24,7 @@ export default class Navbar extends Component {
             <Logo />
           </a>
           <a className="navbar-item" href="/#/">
-            <div className="has-text-weight-bold is-family-monospace">chonk.io</div>
+            <div className="has-text-weight-bold is-family-monospace">OMG.io</div>
           </a>
           <a
             role="button"
