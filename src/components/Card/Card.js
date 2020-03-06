@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
-import AppMarkdown from "./../../markdown/post_002.md"
+import AppMarkdown from "./../../markdown/post_001.md"
 import "./styles.scss";
 
 export default class Card extends Component {
@@ -10,7 +10,6 @@ export default class Card extends Component {
   }
 
   componentWillMount() {
-
     fetch(AppMarkdown)
       .then(res => res.text())
       .then(text => this.setState({ markdown: text }));
